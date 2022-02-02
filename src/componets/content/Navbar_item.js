@@ -1,4 +1,4 @@
-import './Navbar';
+import './Navbar_main';
 
 function NavBarItem(props) {
     const { item } = props;
