@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Resume from './componets/Resume.js';
+import Resume from './Resume.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

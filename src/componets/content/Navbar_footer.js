@@ -12,15 +12,15 @@ function NavFooter() {
 
     return (
         <div className="text-4xl flex justify-between px-8 py-3.5 border-t border-solid border-blueGray-200">
-            <a href="https://github.com/lMikadal" target="_blank">
+            <button rel="noopener noreferrer" href="https://github.com/lMikadal" target="_blank">
                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-            </a> 
-            <a href="https://www.facebook.com/panupong.mikada/" target="_blank">
+            </button> 
+            <button rel="noopener noreferrer" href="https://www.facebook.com/panupong.mikada/" target="_blank">
                 <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>  
-            </a> 
-            <a className="cursor-pointer" onClick={() => setShowModal(true)}>
+            </button> 
+            <button className="cursor-pointer" onClick={() => setShowModal(true)}>
                 <FontAwesomeIcon icon={faLine}></FontAwesomeIcon>  
-            </a>
+            </button>
 
             {showModal? (
                 <>
@@ -44,11 +44,11 @@ function NavFooter() {
                                 </div>
                                 {/*body*/}
                                 <div className="relative p-3 flex-auto">
-                                    <img src={Img} />
+                                    <img src={Img} alt="line" />
                                 </div>
                                 {/*footer*/}
                                 <div className="text-black text-base flex p-3 border-t border-solid border-blueGray-200 rounded-b">
-                                    <p><b>Line:</b> 3012420000</p>
+                                    <p><b>LineID:</b> 3012420000</p>
                                 </div>
                             </div>
                         </div>

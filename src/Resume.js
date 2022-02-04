@@ -1,5 +1,5 @@
-import Content from "./content/Content";
-import NavBar from "./content/Navbar";
+import Content from "./componets/content/Content";
+import NavBar from "./componets/content/Navbar";
 
 function Resume(){
 
