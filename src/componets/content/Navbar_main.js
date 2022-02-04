@@ -1,18 +1,14 @@
-import NavItem from './Navbar_item';
+import NavMainAbout from './Navbar_main_about';
+import NavMainContact from './Navbar_main_contact';
 
-//สร้าง item
-const navItems = [ "About", "Educatioin", "Skills", "Career Objective", "Work Experience", "Projects" ];
 
 function NavMain() {
-
-    const navItem = navItems.map((item, index) => {
-        return <NavItem key={index} item={item} />
-    });
-
     return (
-        <div>
-            {navItem}
-        </div>   
+        <>
+            <NavMainAbout/>  
+            <div className="border-t border-solid border-blueGray-200"></div>
+            <NavMainContact />
+        </> 
     );
 }
 

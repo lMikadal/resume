@@ -1,6 +1,6 @@
 import Me from '../img/me.jpg';
-import NavMainItem from './Navbar_main';
-import NavFooterItem from './Navbar_footer';
+import NavMain from './Navbar_main';
+import NavFooter from './Navbar_footer';
 
 function Navbar() {
     return (
@@ -10,9 +10,9 @@ function Navbar() {
                     <img src={Me} className="rounded-lg opacity-100"/>
                 </div>
                 
-                <NavMainItem />
+                <NavMain />
 
-                <NavFooterItem />
+                <NavFooter />
             </nav>
         </div>
     );
