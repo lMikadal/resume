@@ -3,7 +3,7 @@ import NavContactItems from './Navbar_main_contact';
 
 function ContentFooter() {
     return (
-        <div className="border-t-2 grid grid-rows-1 grid-flow-col gap-4 px-16 transform -translate-x-full md:relative md:translate-x-0 ease-in-out">
+        <div className="border-t-2 grid grid-rows-1 grid-flow-col gap-4 px-16 md:hidden">
             <div>
                 <NavContactItems/>
             </div>
