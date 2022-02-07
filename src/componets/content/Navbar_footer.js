@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLine } from "@fortawesome/free-brands-svg-icons";
+import { v4 as uuidv4 } from 'uuid';
 import Img from '../img/line.jpg';
 
 function NavFooter() {
@@ -11,15 +12,15 @@ function NavFooter() {
     }
 
     return (
-        <div className="text-4xl flex justify-between px-8 py-3.5 border-t border-solid border-blueGray-200">
+        <div className="text-4xl flex justify-between px-8">
             <button rel="noopener noreferrer" href="https://github.com/lMikadal" target="_blank">
-                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} key={uuidv4()}></FontAwesomeIcon>
             </button> 
             <button rel="noopener noreferrer" href="https://www.facebook.com/panupong.mikada/" target="_blank">
-                <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>  
+                <FontAwesomeIcon icon={faFacebook} key={uuidv4()}></FontAwesomeIcon>  
             </button> 
             <button className="cursor-pointer" onClick={() => setShowModal(true)}>
-                <FontAwesomeIcon icon={faLine}></FontAwesomeIcon>  
+                <FontAwesomeIcon icon={faLine} key={uuidv4()}></FontAwesomeIcon>  
             </button>
 
             {showModal? (

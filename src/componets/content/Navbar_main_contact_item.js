@@ -24,8 +24,8 @@ function NavContactItems() {
         <>
             {items.map((val)=>{
                 return (
-                    <div className='block py-2.5'>
-                        <FontAwesomeIcon icon={val.icon} key={uuidv4()}></FontAwesomeIcon>
+                    <div className='block py-2.5' key={uuidv4()}>
+                        <FontAwesomeIcon icon={val.icon}></FontAwesomeIcon>
                         <span className='pl-3'>{val.name}</span>
                     </div>   
                 ) 

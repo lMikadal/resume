@@ -1,5 +1,6 @@
 import ReactTypingEffect from 'react-typing-effect';
 import MeInfo from '../img/meInfo.jpg';
+import ContentInfoDescription from './Content_info_description';
 
 
 function ContentInfo() {
@@ -9,6 +10,8 @@ function ContentInfo() {
             <div className='p-3 text-3xl'>
                 <ReactTypingEffect text={["I'm Panupong Mikada", "I'm Developer"]} eraseDelay={500} typingDelay={200} />
             </div>
+            
+            <ContentInfoDescription/>
         </div>
     );
 }
