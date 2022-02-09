@@ -1,22 +1,31 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLine } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faGoogle, faLine } from "@fortawesome/free-brands-svg-icons";
 import { v4 as uuidv4 } from 'uuid';
 import Img from '../img/line.jpg';
 
 function NavFooter() {
     const [showModal, setShowModal] = useState(false);
+    const [showGit, setShowGit] = useState(false);
+    const [showFacebook, setShowFacebook] = useState(false);
 
     function onClose(){
         setShowModal(false);
     }
 
+    if (showGit === true){
+        window.location.href = "https://github.com/lMikadal"
+    }
+    if (showFacebook === true){
+        window.location.href = "https://www.facebook.com/panupong.mikada/"
+    }
+
     return (
-        <div className="text-4xl flex justify-between px-8">
-            <button rel="noopener noreferrer" href="https://github.com/lMikadal" target="_blank">
+        <div className="text-4xl flex justify-between px-8"> 
+            <button onClick={() => setShowGit(true)}>
                 <FontAwesomeIcon icon={faGithub} key={uuidv4()}></FontAwesomeIcon>
             </button> 
-            <button rel="noopener noreferrer" href="https://www.facebook.com/panupong.mikada/" target="_blank">
+            <button onClick={() => setShowFacebook(true)}>
                 <FontAwesomeIcon icon={faFacebook} key={uuidv4()}></FontAwesomeIcon>  
             </button> 
             <button className="cursor-pointer" onClick={() => setShowModal(true)}>

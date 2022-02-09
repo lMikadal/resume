@@ -20,7 +20,7 @@ function ContentSkillHard() {
         {
             title: "DataBase",
             description: {
-                item1:"SQL Navicat,phpMyadmin", 
+                item1:"SQL Navicat, phpMyadmin", 
                 item2: "NoSQL MongoDB"
             }
         },
@@ -47,7 +47,7 @@ function ContentSkillHard() {
         <div className='md:bg-amber-400 md:opacity-80 rounded-lg p-3'>
             <h1 className='grid justify-items-center text-xl pb-2'>Hard Skill</h1>
             <hr/>
-            <div className='flex justify-between'>
+            <div className='grid md:grid-cols-5 grid-cols-3 gap-1'>
                 {skill}
             </div>
         </div>
