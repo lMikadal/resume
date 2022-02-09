@@ -28,14 +28,14 @@ function ContentSkillHard() {
             title: "Framework, Library",
             description: {
                 item1: "CodeIgniter, Laravel", 
-                item2: "React, Node.js, Jquery"
+                item2: "React, Jquery"
             }
         },
         {
             title: "Programming Language",
             description: {
-                item1: "HTML, CSS, JS ดี",
-                item2: "PHP ดี"
+                item1: "HTML, CSS, JS, PHP ดี",
+                item2: "Go พื้นฐาน"
             }
         }
     ]
@@ -45,7 +45,7 @@ function ContentSkillHard() {
 
     return (
         <div className='md:bg-amber-400 md:opacity-80 rounded-lg p-3'>
-            <h1 className='grid justify-items-center text-xl pb-2'>Hard Skills</h1>
+            <h1 className='grid justify-items-center text-xl pb-2'>Hard Skill</h1>
             <hr/>
             <div className='flex justify-between'>
                 {skill}
