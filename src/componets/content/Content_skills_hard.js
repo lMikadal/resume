@@ -44,7 +44,7 @@ function ContentSkillHard() {
     })
 
     return (
-        <div className='md:bg-amber-400 md:opacity-80 rounded-lg p-3'>
+        <div className='bg-amber-400 md:opacity-80 rounded-lg p-3'>
             <h1 className='grid justify-items-center text-xl pb-2'>Hard Skill</h1>
             <hr/>
             <div className='grid md:grid-cols-5 grid-cols-3 gap-1'>

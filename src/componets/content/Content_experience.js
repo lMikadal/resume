@@ -21,7 +21,7 @@ function ContentExperience() {
             <h1 className='p-3 text-3xl'>Experience</h1>
             <div className='grid grid-rows-1 grid-flow-col gap-4'>
                 <div className='col-span-1 px-2 border-r-4 border-r-black'>
-                    <p>15/11/2021 ถึง 28/1/2022</p> 
+                    <p>15/11/2021 - 28/1/2022</p> 
                     <p>ได้มีโอกาสฝึกงานที่</p>
                     <p>บริษัท ฟอร์ท สมาร์ท เซอร์วิส จำกัด (มหาชน)</p>
                 </div>

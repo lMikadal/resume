@@ -12,7 +12,7 @@ function NavContactItems() {
         },
         {
             icon: faMailBulk,
-            name: "mikada_p@silpakorn.edu"
+            name: "panupong.mikada@gmail.com"
         },
         {
             icon: faHome,
