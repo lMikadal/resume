@@ -10,13 +10,27 @@ import Img9 from '../img/9.png';
 import Img10 from '../img/10.png';
 import Img11 from '../img/11.png';
 import Img12 from '../img/12.png';
+import { useState } from 'react';
 
 function ContentHandwork() {
+    const [showGit, setShowGit] = useState(false);
+
+    if (showGit === true){
+        window.location.href = "https://github.com/lMikadal/node-react-showItem"
+    }
+
     return (
         <div className='grid justify-items-center p-3'>
             <h1 className='p-3 text-3xl'>ผลงาน</h1>
 
             <h4 className="text-lg pb-2">Show Item (React-Node.js)</h4>
+            <button 
+                type="button" 
+                class="inline-block px-6 py-2.5 my-3 bg-amber-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg"
+                onClick={() => setShowGit(true)}
+            >
+                Git
+            </button>
             <div id="carouselExampleCaptions" className="carousel slide relative carousel-dark" data-bs-ride="carousel">
                 <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                     <button
