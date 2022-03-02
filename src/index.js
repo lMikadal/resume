@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Resume from './Resume.js';
 import reportWebVitals from './reportWebVitals';
+import 'tw-elements';
 
 ReactDOM.render(
   <React.StrictMode>

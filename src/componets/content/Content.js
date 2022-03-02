@@ -14,7 +14,7 @@ function Content() {
                 <ContentEducation />
             </div>
             <ContentSkills/>
-            {/* <ContentHandwork/> */}
+            <ContentHandwork/>
             <ContentFooter/>
         </div>
     );

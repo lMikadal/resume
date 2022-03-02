@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faGoogle, faLine } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faLine } from "@fortawesome/free-brands-svg-icons";
 import { v4 as uuidv4 } from 'uuid';
 import Img from '../img/line.jpg';
 
