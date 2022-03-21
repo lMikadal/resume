@@ -34,8 +34,7 @@ function ContentSkillHard() {
         {
             title: "Programming Language",
             description: {
-                item1: "HTML, CSS, JS, PHP ดี",
-                item2: "Go พื้นฐาน"
+                item1: "HTML, CSS, JS, PHP ดี"
             }
         }
     ]
